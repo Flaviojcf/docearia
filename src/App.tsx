@@ -20,7 +20,7 @@ function App() {
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const url = `https://api.whatsapp.com/send?phone=81985391935&text=${encodeURIComponent(
+    const url = `https://api.whatsapp.com/send?phone=8185391935&text=${encodeURIComponent(
       `Olá, meu nome é ${name} e gostaria de fazer esse pedido: ${message}`
     )}`;
 

@@ -93,6 +93,7 @@ function App() {
                     maxLength={100}
                     value={message}
                     onChange={(event) => setMessage(event.target.value)}
+                    placeholder="Digite aqui seu pedido"
                   ></textarea>
                   <button
                     type="submit"

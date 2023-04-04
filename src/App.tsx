@@ -16,15 +16,18 @@ function App() {
     ScrollToTop(300);
   }, []);
 
-
-
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const url = `https://api.whatsapp.com/send?phone=8185391935&text=${encodeURIComponent(
-      `Olá, meu nome é ${name} e gostaria de fazer esse pedido: ${message}`
-    )}`;
 
-    window.open(url, "_blank");
+    if (name != "" && message != "") {
+      const url = `https://api.whatsapp.com/send?phone=8185391935&text=${encodeURIComponent(
+        `Olá, meu nome é ${name} e gostaria de fazer esse pedido: ${message}`
+      )}`;
+
+      window.open(url, "_blank");
+    } else {
+      return
+    }
   }
 
   return (
@@ -87,6 +90,7 @@ function App() {
                     className="border rounded-sm px-2"
                     value={name}
                     onChange={(event) => setName(event.target.value)}
+                    required
                   />
                   <textarea
                     className="w-full h-28 border rounded-sm px-2 resize-none"
@@ -94,6 +98,7 @@ function App() {
                     value={message}
                     onChange={(event) => setMessage(event.target.value)}
                     placeholder="Digite aqui seu pedido"
+                    required
                   ></textarea>
                   <button
                     type="submit"

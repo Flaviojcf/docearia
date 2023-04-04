@@ -64,28 +64,28 @@ export function FirstSection() {
         </div>
 
         <ul className="hidden tablet:flex gap-2 items-start w-full mt-2">
-            <li>
-              <a href="https://www.facebook.com/cacarla.w" target="_blank">
-                <img
-                  className="cursor-pointer hover:brightness-90 duration-150 mobile:h-10"
-                  src="/assets/facebook.png"
-                  alt="facebook image"
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://instagram.com/cacarla21?igshid=YmMyMTA2M2Y="
-                target="_blank"
-              >
-                <img
-                  className="cursor-pointer hover:brightness-90 duration-150 mobile:h-10"
-                  src="/assets/instagram.png"
-                  alt="instagram image"
-                />
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a href="https://www.facebook.com/cacarla.w" target="_blank">
+              <img
+                className="cursor-pointer hover:brightness-90 duration-150 mobile:h-10"
+                src="/assets/facebook.png"
+                alt="facebook image"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/cacarla21?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
+              <img
+                className="cursor-pointer hover:brightness-90 duration-150 mobile:h-10"
+                src="/assets/instagram.png"
+                alt="instagram image"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

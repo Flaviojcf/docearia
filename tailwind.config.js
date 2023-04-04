@@ -8,7 +8,8 @@ module.exports = {
       yellow : "#FEF4DE",
       white: "#FFFFFF",
       brown : "#7C4032",
-      bottom: "#584125"
+      bottom: "#584125",
+      modalOverlay: "rgba(0, 0, 0, 0.75)"
 
     },
     screens: {

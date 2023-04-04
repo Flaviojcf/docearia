@@ -1,8 +1,10 @@
 export function Footer() {
   return (
     <div className="flex flex-col">
-      <div className="flex max-w-full px-60 items-center justify-between">
-        <ul className="flex flex-col gap-2">
+
+      <div className="flex max-w-full items-center justify-between tablet:flex-col">
+
+        <ul className="flex flex-col gap-2 w-full1">
           <li className="flex items-center gap-4 text-white font-bold">
           <img src="/assets/phone.png"/>
             <p>(81) 99724-8382 [Susana Gomes]</p>
@@ -16,7 +18,7 @@ export function Footer() {
             <p>(81) 98539-1935 [Carla]</p>
           </li>
         </ul>
-        <div className="flex self-end items-center gap-4">
+        <div className="flex self-end items-center gap-4 tablet:mt-6">
           <img src="/assets/map.png"/>
           <p className="text-white font-bold">
             Ateliê Susana Gomes Endereço: Rua São João Batista, 220 - Água Fria

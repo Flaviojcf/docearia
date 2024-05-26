@@ -35,7 +35,7 @@
 ## Contato
 [@flavio_jCosta](mailto:flaviojcostafilho@gmail.com) - flaviojcostafilho@gmail.com
 
-Link do projeto online: [move-it](https://moveitflavio.vercel.app/)
+Link do projeto online: [docearia](https://docearia.vercel.app/)
 
 <p align="right">(<a href="#readme-top">Voltar para o início</a>)</p>
 

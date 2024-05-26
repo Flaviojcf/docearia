@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="[https://github.com/Flaviojcf/docearia](https://github.com/Flaviojcf/docearia)">
-      <img src="/public/img/move.it.png" alt="Logo"/>
+      <img src="/public/assets/docearia.png" alt="Logo"/>
   </a>
 
 

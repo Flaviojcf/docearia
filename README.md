@@ -15,7 +15,7 @@
 
 
   <p align="center">
-   anding Page projetada para impulsionar as vendas de uma docearia.
+   Landing Page projetada para impulsionar as vendas de uma docearia.
     <br />
     <a href="https://github.com/Flaviojcf/docearia"><strong>Explore o código »</strong></a>
     <br />
